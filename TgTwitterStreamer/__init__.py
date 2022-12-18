@@ -60,8 +60,9 @@ TRACK_WORDS = None
 
 
 CUSTOM_FORMAT = """
-🎊 <a href='{TWEET_LINK}'>{SENDER}</a>
-🍿 {TWEET_TEXT}
+{SENDER}
+{TWEET_TEXT}
+{TWEET_LINK}
 """
 
 
